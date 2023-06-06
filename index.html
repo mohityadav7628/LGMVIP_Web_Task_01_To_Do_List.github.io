@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icon.jpeg">
+    <style>
+        body {
+            margin-top: 20px;
+            background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+            background-repeat: no-repeat;
+            background-size: 100%, 100%;
+            background-attachment: scroll;
+            object-fit: cover;
+            /* filter: blur(8px); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-aap">
+            <h1>TO DO LIST</h1>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Title...">
+                <button onclick="addtask()">Add</button>
+                <!-- <button onclick="addTask()">Add </button> -->
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1 </li>
+                <li>Task 2 </li>
+                <li>Task 3 </li> -->
+            </ul>
+        </div>
+
+    </div>
+    <script src="aap.js"></script>
+
+</body>
+
+</html>
